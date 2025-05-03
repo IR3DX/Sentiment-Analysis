@@ -6,7 +6,7 @@ This project presents a tiered approach to sentiment analysis, offering three pr
 | Model    | Dataset      | Type                         | Class Count | Use Case                                             | Accuracy | Computational Cost |
 |----------|--------------|------------------------------|--------------|------------------------------------------------------|----------|---------------------|
 | Model 1  | Sentiment140 | Binary (Positive/Negative)   | 2            | Real-time or low-resource applications               | ~79%     | 🟢 Low              |
-| Model 2  | GoEmotions   | Multi-class (Emotions)       | 27           | Moderate applications with richer emotion detection  | ~43%     | 🟡 Medium           |
+| Model 2  | GoEmotions   | Multi-class (Emotions)       | 27           | Moderate applications with richer emotion detection  | ~43%     | 🟡 Low to Medium    |
 | Model 3  | GoEmotions   | Multi-class (Emotions)       | 27           | High-accuracy, nuanced sentiment analysis            | ~92%     | 🔴 High             |
 
 
