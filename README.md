@@ -10,7 +10,7 @@ This project presents a tiered approach to sentiment analysis, offering three pr
 | Model 3  | GoEmotions   | Multi-class (Emotions)       | 27           | High-accuracy, nuanced sentiment analysis            | ~92%     | 🔴 High             |
 
 
-NOTE: Ready out-of-the-box fine-tuned BERT sentiment analysis have an accuracy of 88%-93% depending if it's for binary or multiclass classification (Depends on number of classes as well) 
+NOTE: Ready out-of-the-box fine-tuned BERT sentiment analysis model has an accuracy of 88%-93% depending if it's for binary or multiclass classification (Depends on number of classes as well) 
 
 🧠 Model Breakdown
 
