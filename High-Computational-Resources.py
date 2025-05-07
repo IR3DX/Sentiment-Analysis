@@ -76,7 +76,7 @@ training_args = TrainingArguments(
 )
 
 tokenized_dataset.set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
-tokenized_dataset["train"][0]
+print(tokenized_dataset["train"][0])
 
 trainer = Trainer(
     model=model,
