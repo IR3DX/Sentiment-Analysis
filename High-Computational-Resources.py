@@ -106,7 +106,7 @@ def predict_emotions(text):
     with torch.no_grad():
         outputs = model(**inputs)
         probs = torch.sigmoid(outputs.logits).numpy()[0]
-    return {label: float(f"{prob:.3f}") for label, prob in zip(label_names, probs) if prob > 0.3}
+    return {label: float(f"{prob:.2f}") for label, prob in zip(label_names, probs) if prob > 0.3}
 
 gr.Interface(
     fn=predict_emotions,
